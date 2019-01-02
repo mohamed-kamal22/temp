@@ -1,0 +1,1214 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.hr
+{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.hr > h2
+{
+    width:100%; 
+    text-align:center; 
+    border-bottom: 1.5px solid #000; 
+    line-height:0.1em; 
+    margin:10px 0 20px;
+}
+
+.hr > h2 span
+{
+    background:#E5E5E5; 
+    color: #615e5e;
+    padding:0 100px; 
+}
+
+
+                         /* ----------- Home ---------- */
+
+
+
+header    /* -- start header -- */
+{
+    
+    overflow: hidden;
+    background: #000;
+    color: yellow;
+}
+
+header .logo h2
+{
+    margin: 15px 0;
+}
+
+header .logo
+{
+    float: left;
+    width: 50%;
+}
+
+header nav
+{
+    float: right;
+    width: 50%;
+}
+
+header .container nav .ul li .active
+{
+    color: #ffff00;
+} 
+
+header nav .nav-list
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    line-height: 68px;
+    margin-bottom: 0;
+}
+
+header nav .nav-list li a
+{
+    text-decoration: none;
+    color: #DDD;;
+}
+
+header nav .nav-list li a:hover  
+{
+    color: #ffff00;
+}
+
+
+@media (max-width: 575px)
+{
+    header nav .nav-list
+    {
+        display: unset;
+    }
+}
+
+
+main .home    /* -- start section home -- */
+{
+    background-image: url(../image/banner-3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 665px;
+}
+
+main .home .home-content
+{
+    padding-top: 160px;
+    margin-left: 150px;
+}
+
+main .home .home-content h2
+{
+    font-size: 80px;
+    color: #fff;
+}
+
+main .home .home-content h2 > .sp1
+{
+    color: #ffff00;
+}
+
+main .home .home-content p
+{
+    color: #fff;
+    font-size: 40px;
+}
+
+main .home .home-content button
+{
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+
+
+main .home-offer
+{
+    background-color: #E5E5E5;
+}
+
+main .home-offer .hotel
+{
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-60px);
+}
+
+main .home-offer .hotel .hotel-offer
+{
+    background: #fff;
+}
+
+main .home-offer .hotel .car-rental
+{
+    width: 347px;
+    height: auto;
+    background: #fff;
+}
+
+main .home-offer .hotel .car-rental .check
+{
+    height: 8%;
+    background: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+
+main .home-offer .hotel .car-rental .check > div:first-of-type
+{
+    float: left;
+    width: 50%;
+    padding-top: 14px;
+}
+
+main .home-offer .hotel .car-rental .check > div:last-of-type
+{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: #ffff00;
+    padding-top: 14px;
+}
+
+main .home-offer .hotel .car-rental .check-data
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+main .home-offer .hotel .car-rental .check-data form
+{
+    margin-top: 30px;
+}
+
+main .home-offer .hotel .car-rental .check-data form select
+{
+    width: 100%;
+    padding: 5px 2px;
+}
+
+main .home-offer .hotel .car-rental .check-data form .date1
+{
+    margin-top: 35px;
+}
+
+main .home-offer .hotel .car-rental .check-data form .date2
+{
+    margin-top: 33px;
+}
+
+
+main .home-offer .hotel .car-rental .check-data form #datepicker
+{
+    width: 100%;
+    padding: 5px 5px;
+}
+
+main .home-offer .hotel .car-rental .check-data form .guest
+{
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+
+main .home-offer .hotel .hotel-offer
+{
+    margin-left: 45px;
+}
+
+main .home-offer .hotel .hotel-offer .price
+{
+    overflow: hidden;
+}
+
+main .home-offer .hotel .hotel-offer .price > h2
+{
+    float: left;
+    width: 50%;
+    padding: 0 0 0 60px;
+    margin-top: 18px;
+    font-size: unset;
+}
+
+main .home-offer .hotel .hotel-offer .price > p
+{
+    float: left;
+    width: 50%;
+    padding: 15px 0 0 60px;
+    font-size: unset;
+}
+
+main .home-offer .hotel .hotel-offer .btn1 button
+{
+    background: #ffff00;
+    margin-top: 17px;
+    padding: 5px 20px;
+}
+main .home-offer .travel
+{
+    width: 100%;
+}
+
+main .home-offer .travel .card-group
+{
+    margin-left: 30px;
+}
+
+main .home-offer .travel .card-group .card
+{
+    margin-right: 20px;
+    padding: 0;
+}
+
+main .home-offer .travel .card-group .card .card-body
+{
+    margin-bottom: 15px;
+}
+
+main .home-offer .travel .card-group .card .card-travel
+{
+    width: 100%;
+    height: 53px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #DDD;
+}
+
+main .home-offer .travel .card-group .card .card-travel .icon-travel
+{
+    flex-grow: 1;
+    padding-top: 20px;
+    border-right: 1px solid #DDD;
+}
+
+main .home-offer .travel .card-group .card .card-travel .sp2
+{
+    flex-grow: 1.5;
+    padding-top: 15px;
+    border-right: 1px solid #DDD;
+}
+
+main .home-offer .travel .card-group .card .card-travel .icon
+{
+    flex-grow: 1;
+    padding-top: 20px;
+}
+
+main .home-offer .travel .holiday
+{
+    text-transform: capitalize;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+main .home-offer .travel .holiday p
+{
+    width: 98%;
+    font-size: 15px;
+    line-height: 1.7;
+    padding-left: 25px;
+    color: #6c757d
+}
+main .home-offer .travel .holiday p > span a     
+{
+    text-decoration: none;
+}
+
+@media (max-width: 575px)
+{
+    main .home .home-content
+    {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    main .home-offer .hotel
+    {
+        display: block;
+        width: 100%;
+        transform: none;
+    }
+
+    main .home-offer .hotel .car-rental
+    {
+        width: 92%;
+        margin-left: 15px;
+    }
+
+    main .home-offer .hotel .hotel-offer
+    {
+        margin-left: 0;
+        width: 100%;
+        margin: 20px 0 20px 15px;
+        background: #E5E5E5;
+    }
+
+    main .home-offer .hotel .hotel-offer .hotel-img > img
+    {
+        width: 92%;
+    }
+
+    main .home-offer .hotel .hotel-offer .price
+    {
+        width: 92%;
+    }
+
+    .home-offer .hr
+    {
+        width: 100%;
+    }
+
+    .home-offer .hr > h2 span
+    {
+        background:#E5E5E5; 
+        color: #615e5e;
+        font-size: 25px;
+        padding:0 20px;
+    }
+
+    .travel .card-group
+    {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px)    
+{
+    main .home .home-content
+    {
+        padding: 0;
+        margin: 50px auto;
+        width: 100%;
+    }
+
+    main .home-offer .hotel 
+    {
+        display: inline-block;
+        width: 100%;
+        transform: none;
+    }
+
+    main .home-offer .hotel .car-rental
+    {
+        width: 92%;
+        margin-left: 15px;
+    }
+
+    main .home-offer .hotel .hotel-offer
+    {
+        margin-left: 0;
+        width: 100%;
+        margin: 20px 0 20px 15px;
+        background: #E5E5E5;
+    }
+
+    main .home-offer .hotel .hotel-offer .hotel-img > img
+    {
+        width: 92%;
+    }
+
+    main .home-offer .hotel .hotel-offer .price
+    {
+        width: 92%;
+    }
+
+    .home-offer .hr
+    {
+        width: 100%;
+    }
+
+    .home-offer .hr > h2 span
+    {
+        background:#E5E5E5; 
+        color: #615e5e;
+        font-size: 25px;
+        padding:0 20px;
+    }  
+}
+
+@media (min-width:769px) and (max-width: 991px)       /* -- End section home -- */
+{
+    main .home .home-content
+    {
+        padding: 0;
+        margin: 50px auto;
+        width: 100%;
+    }
+
+    main .home-offer .hotel 
+    {
+        display: inline-block;
+        width: 100%;
+        transform: none;
+        overflow: hidden;
+    }
+
+    main .home-offer .hotel .car-rental
+    {
+        width: 100%;
+        margin-left: 15px;
+    }
+
+    main .home-offer .hotel .hotel-offer
+    {
+        float: left;
+        width: 48%;
+        margin-left: 2%;
+        margin-top: 20px;        
+    }
+
+    main .home-offer .hotel .hotel-offer .hotel-img img
+    {
+        width: 100%;
+    }
+
+}
+
+.packages .hr    /* -- start section packages --*/
+{
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+.packages .hr > h2 span
+{
+    background: white;
+}
+
+.packages .packages-offer
+{
+    overflow: hidden;
+}
+
+.packages .packages-offer .offer-card
+{
+    float: left;
+    width: 45%;
+    display: flex;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    border: 1px solid #c4cdd4;
+}
+
+.packages .packages-offer .offer-card .offer-data > p
+{
+    font-size: 13px;
+    color: #6c757d;
+    padding: 40px 20px;
+    line-height: 1.6;
+}
+
+.packages .packages-offer .offer-card .offer-data .offer-icon
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.packages .packages-offer .offer-card .offer-data .offer-icon > span
+{
+    transform: translateY(-5px);
+}
+
+@media  (max-width: 575px)
+{
+    .packages .hr
+    {
+        width: 100%;
+    }
+
+    .packages .hr > h2 span
+    {
+        background: #FFF; 
+        color: #615e5e;
+        font-size: 25px;
+        padding:0 20px;
+    }
+
+    .packages .packages-offer .offer-card 
+    {
+        display: block;
+        width: 100%;
+    }
+
+    .packages .packages-offer .offer-card .offer-img >img
+    {
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px)        /* -- End section packages --*/
+{
+    .packages .hr > h2 span
+    {
+        background: #FFF; 
+        color: #615e5e;
+        font-size: 25px;
+        padding:0 20px;
+    }
+
+    .packages .packages-offer .offer-card 
+    {
+        display: block;
+        width: 45%;
+    }
+
+    .packages .packages-offer .offer-card .offer-img >img
+    {
+        width: 100%;
+    }
+}
+
+@media (min-width:769px) and (max-width: 991px)
+{
+    .packages .hr > h2 span
+    {
+        background: #FFF; 
+        color: #615e5e;
+        font-size: 25px;
+        padding:0 20px;
+    }
+
+    .packages .packages-offer .offer-card 
+    {
+        display: inline-block;
+        width: 45%;
+    }
+
+    .packages .packages-offer .offer-card .offer-img >img
+    {
+        width: 100%;
+    }
+}
+
+footer
+{
+    background: #000;
+    color: #fff;
+    padding: 30px 0;
+}
+
+footer p
+{
+    margin-bottom: 0;
+}
+
+footer p > span
+{
+    font-size: larger;
+    color: #ffff00;
+    font-family: 'Lobster', cursive;
+}
+
+.scrollTop {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: #f00;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    display: none
+}
+
+.scrollTop .fa
+{
+    line-height: 40px;
+}
+
+
+                         /* ----------- Home ---------- */
+
+
+                        /* ----------- About ---------- */
+
+
+main .about   /*  header  */
+{
+    background-image: url(../image/banner-3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 665px;
+}
+
+main .about .about-content
+{
+    padding-top: 50px;
+    margin-right: 40px;
+}
+
+main .about .about-content h2
+{
+    font-size: 100px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+main .about .about-content h2 > .sp1
+{
+    color: #ffff00;
+}
+
+main .about .about-content p
+{
+    color: #fff;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+
+main .about .about-content button
+{
+    padding: 10px 30px;
+    margin-top: 30px;
+    color: #fff;
+    background: rgba(255, 193, 7 , .5)
+}
+
+@media (max-width: 575px)  /*  header  */
+{
+    main .about .about-content h2
+    {
+        font-size: 60px;
+        margin-top: 50px;
+    }
+
+}
+
+main .about-holiday  /*  Start section holiday  */
+{
+    background: #E5E5E5;
+}
+
+main .about-holiday .well-holiday
+{
+    overflow: hidden;
+    background: #fff;
+    transform: translateY(-50px);
+}
+
+main .about-holiday .well-holiday .img-holiday
+{
+    float: left;
+    width: 50%;
+}
+
+main .about-holiday .well-holiday .img-holiday img
+{
+    width: 100%;
+}
+
+
+
+main .about-holiday .well-holiday .holiday-data
+{
+    float: left;
+    width: 50%;
+    padding: 40px 30px 30px 30px;
+    position: relative;
+}
+
+main .about-holiday .well-holiday .holiday-data h2
+{
+    font-size: 40px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+
+}
+
+main .about-holiday .well-holiday .holiday-data p:first-of-type
+{
+    font-size: 15px;
+    font-weight: bold;
+    color: #6b6666;
+}
+
+main .about-holiday .well-holiday .holiday-data p
+{
+    color:#6c757d;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+main .about-holiday .well-holiday .holiday-data p a
+{
+    text-decoration: none;
+}
+
+
+main .about-holiday .well-holiday .holiday-data > div
+{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 5px;
+    right: 8px;
+    padding-right: 15px;
+}
+
+@media (max-width: 575px)
+{
+    main .about-holiday .well-holiday
+    {
+        transform: translateY(50px);
+        width: 100%;
+    }
+
+    main .about-holiday .well-holiday .img-holiday
+    {
+        display: block;
+        width: 100%;
+    }
+
+    main .about-holiday .well-holiday .holiday-data
+    {
+        display: block;
+        width: 100%;
+    }
+
+    .loading
+    {
+        top: 45px;
+    }
+
+    main .team-work .hr
+    {
+        margin-bottom: 50px;
+    }
+
+    main .team-work .hr h2 > span
+    {
+       font-size: 20px; 
+       padding: 0 50px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 768px)
+{
+    main .about-holiday .well-holiday
+    {
+        transform: translateY(50px);
+        width: 100%;
+    } 
+
+    main .about-holiday .well-holiday .img-holiday
+    {
+        display: block;
+        width: 100%;
+    }
+
+    main .about-holiday .well-holiday .holiday-data
+    {
+        display: block;
+        width: 100%;
+    }
+
+    .loading
+    {
+        top: 45px;
+    }
+
+    main .team-work .hr
+    {
+        margin-bottom: 50px;
+    }
+
+    main .team-work .hr h2 > span
+    {
+       font-size: 20px; 
+       padding: 0 20px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px)    
+{
+    main .about-holiday .well-holiday
+    {
+        transform: translateY(50px);
+        width: 100%;
+    } 
+
+    main .about-holiday .well-holiday .img-holiday
+    {
+        display: block;
+        width: 100%;
+    }
+
+    main .about-holiday .well-holiday .holiday-data
+    {
+        display: block;
+        width: 100%;
+    }
+
+    .loading
+    {
+        top: 45px;
+    }
+
+    main .team-work .hr
+    {
+        margin-bottom: 50px;
+    }
+
+    main .team-work .hr h2 > span
+    {
+       font-size: 20px; 
+       padding: 0 20px;
+    }
+}
+
+main .team-work   /* Start section team */
+{
+    background: #E5E5E5;
+}
+
+main .team-work .hr
+{
+    text-transform: uppercase;
+}
+
+main .team-work .card-group
+{
+    margin-bottom: 50px;
+}
+
+main .team-work .card-group .card
+{
+    padding: 0;
+}
+
+main .team-work .card-group .card:first-of-type
+{
+    margin-right: 40px;
+}
+
+main .team-work .card-group .card:nth-of-type(2)
+{
+    margin-right: 40px;
+}
+
+main .team-work .card-group .card:nth-of-type(3)
+{
+    margin-right: 40px;
+}
+
+main .team-work .card-group .card > div > img 
+{
+    border-radius: 50%;
+}
+
+main .team-work .card-group .card .card-body h5
+{
+    color: #615e5e;
+    font-style: italic;
+}
+
+main .team-work .card-group .card .card-body p
+{
+    color: #6c757d;
+    font-size: 13px;
+}
+
+
+main .team-work .card-group .card .card-body h5 > span
+{
+    font-size: 15px;
+    font-style: unset;
+}
+
+main .team-work .card-group .card .card-body > div
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 575px)
+{
+    main .team-work .card-group .card
+    {
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px)   /* End section team */
+{
+    main .team-work .card-group 
+    {
+        width: 100%;
+        display: block;
+        overflow: hidden;
+    }
+
+    main .team-work .card-group .card
+    {
+        width: 100%;
+        float: left;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    main .team-work .card-group .card:first-of-type
+    {
+        margin-right: 0;
+    }
+
+    main .team-work .card-group .card:nth-of-type(2)
+    {
+        margin-right: 0;
+    }
+
+    main .team-work .card-group .card:nth-of-type(3)
+    {
+        margin-right: 0;
+    }
+}
+
+main .our-work .hr
+{
+    margin-bottom: 50px;
+}
+
+main .our-work .hr .background > span    /*  Start Section Our Work */
+{
+    background: #fff;
+    text-transform: uppercase;
+}
+
+main .our-work
+{
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+main .our-work .testimonials
+{
+    float: left;
+    width: 30%;
+    background: #E8BA0F;
+    text-align: center;
+    padding: 0;
+}
+
+main .our-work .testimonials h2
+{
+    text-transform: uppercase;
+    background:  #606874;
+    color: rgb(218, 211, 211);
+    padding: 15px 30px;
+}
+
+main .our-work .testimonials .test-data
+{
+    padding: 5px 20px 0px 20px;
+}
+
+main .our-work .testimonials .test-data > h4
+{
+    transform: translateY(-20px);
+    font-style: italic;
+    color: #2c2b2b;
+}
+
+main .our-work .testimonials .test-data > p
+{
+    font-size: 16px;
+    font-style: italic;
+    color: #615e5e
+}
+
+
+
+main .our-work .work-img
+{
+    float: left;
+    width: 64%;
+}
+
+main .our-work .work-img .work-data
+{
+    display: flex;
+}
+
+main .our-work .work-img .work-data:first-of-type
+{
+    margin-bottom: 38px;
+}
+
+
+main .our-work .work-img .work-data .img-data
+{
+    margin-left: 4%;
+}
+
+main .our-work .work-img .work-data .img-data p:first-of-type
+{
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+main .our-work .work-img .work-data .img-data p:nth-of-type(2)
+{
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #6c757d;
+}
+
+main .our-work .work-img .work-data .img-data p:last-of-type
+{
+    color: #4d4949;
+    margin-bottom: 0;
+    padding: 10px 0 ;
+    border-top: 1px solid #ced2d6;
+    border-bottom: 1px solid #ced2d6;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+@media (max-width: 575px)
+{
+    main .our-work .testimonials
+    {
+        padding: 0;
+    }
+
+    main .our-work .work-img
+    {
+        width: 100%;
+    }
+
+    main .our-work .work-img .work-data
+    {
+        display: block;
+        margin-top: 15px;
+    }
+
+    main .our-work .work-img .work-data .img-data
+    {
+        margin-left: 0;
+    }
+
+}    
+
+@media (min-width: 576px) and (max-width: 768px)
+{
+    main .our-work .hr
+    {
+        margin-bottom: 50px;
+    }
+
+    main .our-work .hr .background > span
+    {
+        padding: 0 20px;
+    }
+
+    main .our-work .testimonials
+    {
+        padding: 0;
+    }
+
+    main .our-work .work-img
+    {
+        width: 100%;
+        padding: 0;
+    }
+
+    main .our-work .work-img .work-data
+    {
+        display: block;
+        margin-top: 15px;
+    }
+
+    main .our-work .work-img .work-data .img-data
+    {
+        margin-left: 0;
+    }
+}   
+
+@media (min-width: 769px) and (max-width: 992px)      /*  End Section Our Work */
+{
+    main .our-work .hr
+    {
+        margin-bottom: 50px;
+    }
+
+    main .our-work .hr .background > span
+    {
+        padding: 0 20px;
+    } 
+
+    main .our-work .testimonials
+    {
+        padding: 0;
+    }
+
+    main .our-work .work-img .work-data
+    {
+        margin-top: 30px;
+    }
+
+    main .our-work .work-img
+    {
+        padding: 0;
+    }
+}
+
+.loading
+{
+    width: 200px;
+    height: 50px;
+    margin: 10px auto;
+    position: relative;
+    bottom: 40px;
+    left: 50px;
+    margin-bottom: 0;
+}
+
+.loading span
+{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: #292525;
+}
+
+.loading span:nth-of-type(2)
+{
+    left: 22px;
+    background: #868383
+}
+
+.loading span:nth-of-type(3)
+{
+    left: 44px;
+    background: #868383
+}
+
+.loading span:nth-of-type(4)
+{
+    left: 66px;
+    background: #868383
+}
+
+.loading span:last-of-type
+{
+    left: 88px;
+    background: #868383
+}
+
+
